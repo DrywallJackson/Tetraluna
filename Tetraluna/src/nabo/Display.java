@@ -56,15 +56,13 @@ public class Display extends JPanel
 		}
 		else
 		{
-			g2d.setColor(Game.gameColor);
+			g2d.setColor(Color.white);
 			Font f = Helper.getTetraluna().deriveFont((float)48);
 			FontMetrics fm = g2d.getFontMetrics(f);
 			g2d.setFont(f);
 			int x = (int) (this.getWidth()/2d - fm.stringWidth(loadingString)/2d);
 			int y = (int) (this.getHeight()/2d + 48/2d);
 			g2d.drawString(loadingString, x, y);
-			g2d.drawOval(100, 100, 100, 100);
-			g2d.fillOval((int)(100*loadingProgress), (int)(100*loadingProgress), (int)(100*loadingProgress), (int)(100*loadingProgress));
 			g2d.fillRect((int)(this.getWidth()/2d - 200), (int)(this.getHeight()/2d + 40), (int)(400*loadingProgress), 20);
 		}
 
