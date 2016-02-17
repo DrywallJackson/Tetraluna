@@ -1,0 +1,8 @@
+Dialogue Format:
+
+CLOSE=[true/false] - should the dialogue close if the player leaves (MUST BE FIRST LINE)
+This is a test. - Normal lines
+This is still a test.
+-Is this a test?~Yes-5/No-6 - Questions start with '-'. End with '~'. Two answers, in format [first]-[line]/[second]-[line]. 'line' denotes what line to go to depending on answer
+Correct!~END - End a line with '~END' to end the dialogue
+Wrong!~3 - End a line with '~[LINE]' to go to a line

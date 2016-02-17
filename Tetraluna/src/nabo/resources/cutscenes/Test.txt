@@ -1,0 +1,10 @@
+delay~400
+moveCamera(0,500)~400
+delay~200
+spawnEntity(Test,0,500,test)
+delay~200
+openDialogue(Test,Test)
+delay~200
+removeEntity(Test)
+delay~200
+moveCamera(500,500)~400

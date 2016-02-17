@@ -1,0 +1,8 @@
+Cutscene Commands:
+setCamera(int x,int y) - Sets the camera position
+moveCamera(int x,int y)~[time] - Moves the camera to the position in the specified time
+spawnEntity(String name,int x,int y,String image) - Spawn an entity
+removeEntity(String name) - remove an entity of the specified name
+delay~[time] - Do nothing for [time] ticks
+openDialogue(String name,String entity) - Open a dialogue of the specified name at the specified entity
+moveDialogue(String entity) - Move the current dialogue to a new entity

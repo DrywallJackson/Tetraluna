@@ -1,0 +1,3 @@
+image:test
+solid:
+music:start_game
