@@ -56,7 +56,7 @@ public class Display extends JPanel
 		}
 		else
 		{
-			g2d.setColor(Color.white);
+			g2d.setColor(Game.gameColor);
 			Font f = Helper.getTetraluna().deriveFont((float)48);
 			FontMetrics fm = g2d.getFontMetrics(f);
 			g2d.setFont(f);
